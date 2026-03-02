@@ -1,3 +1,5 @@
+![Offline Ray Tracer](OfflineRayTracer.png)
+
 ## Build & Run
 
 `cmake --build build`
