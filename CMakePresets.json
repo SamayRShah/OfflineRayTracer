@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "description": "default settings for cmake project",
+            "generator": "Visual Studio 17 2022",
+            "binaryDir": "${workspaceFolder}/build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_EXPORT_COMPILE_COMMANDS" : "YES"
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10.0)
+project(OfflineRayTracer VERSION 0.1.0 LANGUAGES C CXX)
+
+add_executable(OfflineRayTracer main.cpp)
+
+set_property(TARGET OfflineRayTracer PROPERTY CXX_STANDARD 17)
